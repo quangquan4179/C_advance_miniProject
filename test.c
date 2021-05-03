@@ -21,7 +21,6 @@ void readFile(BTA *root, BTA *btSoundex, FILE *f);
 void insert(BTA *root, BTA *btSoundex);
 void update(BTA *root);
 void deleteWord(BTA *root, BTA *btSoundex);
-void search(BTA *root, BTA *btSoundex);
 int search_tab(BTA *root, char *word, String *output);
 void search_soundex(BTA *root, BTA *btSoundex, String string[], int n);
 void search_full(BTA *root, BTA *btSoundex);
