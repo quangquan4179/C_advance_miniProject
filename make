@@ -1,4 +1,4 @@
-gcc -o tudien tudien.c libbt.a -g -fno-stack-protector
+gcc -o tudien test.c libbt.a -g -fno-stack-protector
 ./tudien
 solution: 
 dung dictionary.dat de luu tu dien
